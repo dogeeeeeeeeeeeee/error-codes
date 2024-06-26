@@ -2,11 +2,11 @@
 	"160": {
 		"0101": {
 			"name": "Unknown",
-			"message": "",
-			"short_description": "Unknown cause.",
-			"long_description": "Unknown cause.",
-			"short_solution": "Unknown solution.",
-			"long_solution": "Unknown solution.",
+			"message": "An error has occurred.\n\nPress and hold the POWER button for at least four seconds to turn the console off.",
+			"short_description": "Attempted to coldboot to a title that doesn't exist.",
+			"long_description": "Your console is trying to boot to a title that doesn't exist, because of that the console doesn't know what to do so it will crash instead.",
+			"short_solution": "Restore NAND backup",
+			"long_solution": "If you have a NAND backup for your console, restore it. If you don't, your console is bricked.",
 			"support_link": "https://preten.do/160-0101"
 		}
 	}
